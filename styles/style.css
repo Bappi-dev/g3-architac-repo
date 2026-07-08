@@ -6,8 +6,10 @@
 }
 
 .navbar {
-    background-color: black;
-    color: orange;
+    background:linear-gradient( gold, rgb(58, 204, 230));
+    color: rgb(255, 72, 0);
+    position: sticky;
+    top: 0;
 }
 
 .container {
@@ -33,7 +35,7 @@
 
 .unoder-list ul a {
     text-decoration: none;
-    color: orange;
+    color: rgb(245, 71, 28);
 }
 
 .tilte {
