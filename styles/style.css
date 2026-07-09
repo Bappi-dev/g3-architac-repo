@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background:linear-gradient( gold, rgb(58, 204, 230));
+    background: linear-gradient(gold, rgb(58, 204, 230));
     color: rgb(255, 72, 0);
     position: sticky;
     top: 0;
@@ -121,4 +121,66 @@
 .color-2 {
     font-weight: 200;
     color: rgb(168, 168, 168);
+}
+
+.descripts-title {
+    margin-top: 70px;
+
+}
+
+.left-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.right-title {
+    position: relative;
+
+}
+
+.right-title img {
+    width: 120%;
+}
+
+.left-content div {
+    box-shadow: 0 10px 20px rgba(99, 98, 98, 0.15);
+    padding: 20px;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 10px;
+}
+
+.left-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.position {
+    position: absolute;
+    top: 580px;
+    right: 300px;
+    width: 100px;
+    background-color: #FF900E;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.position h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.position p {
+    text-align: center;
+    color: white;
+}
+
+.description h1 {
+    font-weight: bold;
+    font-size: 50px;
 }
