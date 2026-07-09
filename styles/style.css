@@ -8,7 +8,7 @@
 .navbar {
     background: linear-gradient(gold, rgb(58, 204, 230));
     color: rgb(255, 72, 0);
-    position: sticky;
+
     top: 0;
 }
 
@@ -39,7 +39,11 @@
 }
 
 .tilte {
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.top {
+    width: 110%;
 }
 
 .tilte .top {
@@ -47,7 +51,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .tilte .bottom img {
@@ -131,7 +135,8 @@
 .left-title {
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    margin: px;
+    gap: 50px;
 }
 
 .right-title {
@@ -140,7 +145,7 @@
 }
 
 .right-title img {
-    width: 120%;
+    width: 100%;
 }
 
 .left-content div {
@@ -151,15 +156,16 @@
 }
 
 .left-content {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
+    padding: 20px;
     flex-direction: column;
     gap: 10px;
 }
 
 .position {
     position: absolute;
-    top: 580px;
+    top: 500px;
     right: 300px;
     width: 100px;
     background-color: #FF900E;
@@ -183,4 +189,34 @@
 .description h1 {
     font-weight: bold;
     font-size: 50px;
+}
+
+.description p {
+    color: gray;
+}
+
+.some-container {
+    margin-top: 70px;
+}
+
+.some-title {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.some-title div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    padding: 20px;
+    margin: 20px;
+    gap: 10px;
+    border-radius: 10px;
 }
